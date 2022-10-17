@@ -26,7 +26,7 @@ taskInput.addEventListener('submit', function(e){
 
 });
 
-
+//Local storage still isn't working correctly. 
 
 const savedTasks = JSON.parse(localStorage.getItem("taskList")) || [];
     for(let i = 0; i < taskList.length; i++){
